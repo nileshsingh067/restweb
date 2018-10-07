@@ -1,0 +1,24 @@
+CREATE TABLE `utility`.`tb_Employee` (
+  `id` INT NOT NULL,
+  `empName` VARCHAR(45) NULL,
+  `empDept` VARCHAR(45) NULL,
+  `empMobile` VARCHAR(45) NULL,
+  `empEmail` VARCHAR(45) NULL,
+  `empSalary` VARCHAR(45) NULL,
+  `empDOB` DATE NULL,
+  `empDOJ` DATE NULL,
+  PRIMARY KEY (`id`));
+  
+  
+  
+  CREATE TABLE `tb_Employee` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `empName` varchar(45) DEFAULT NULL,
+  `empDept` varchar(45) DEFAULT NULL,
+  `empMobile` varchar(45) DEFAULT NULL,
+  `empEmail` varchar(45) DEFAULT NULL,
+  `empSalary` varchar(45) DEFAULT NULL,
+  `empDOB` date DEFAULT NULL,
+  `empDOJ` date DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1
